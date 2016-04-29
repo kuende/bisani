@@ -79,3 +79,4 @@ my_int_var.to_u64
 ## Contributors
 
 - [dumitraand](https://github.com/dumitraand)  - creator, maintainer
+- [teodor-pripoae](https://github.com/teodor-pripoae)  - creator, maintainer
