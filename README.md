@@ -65,8 +65,8 @@ my_int_var.to_u64
 
 ### TODO
 - [ ] Accept `Int` without conversion
-- [ ] Implement [Miller-Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) for BigInt
-- [ ] Accept custom prime numbers (Currently default ones)
+- [x] Implement [Miller-Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) for BigInt
+- [x] Accept custom prime numbers (Currently default ones)
 
 ## Contributing
 
