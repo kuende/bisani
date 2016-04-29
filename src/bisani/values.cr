@@ -1,57 +1,21 @@
 class Bisani::Values
+  property int32_prime : Int32
+  property int32_coprime : Int32
+  property int64_prime : Int64
+  property int64_coprime : Int64
+  property uint32_prime : UInt32
+  property uint32_coprime : UInt32
+  property uint64_prime : UInt64
+  property uint64_coprime : UInt64
+
   def initialize
-    @int32_prime = BigInt.new(1500450271)
-    @int32_coprime = BigInt.new(1482223135)
-    @int64_prime = BigInt.new(8230452606740808761)
-    @int64_coprime = BigInt.new(5754553063220537865)
-    @uint32_prime = BigInt.new(3877529093)
-    @uint32_coprime = BigInt.new(3267000013)
-    @uint64_prime = BigInt.new(12764787846358441471)
-    @uint64_coprime = BigInt.new(1510277086161461759)
-  end
-
-  def int32_prime
-    @int32_prime
-  end
-
-  def int32_coprime
-    @int32_coprime
-  end
-
-  def int64_prime
-    @int64_prime
-  end
-
-  def int64_coprime
-    @int64_coprime
-  end
-
-  def uint32_prime
-    @uint32_prime
-  end
-
-  def uint32_coprime
-    @uint32_coprime
-  end
-
-  def uint64_prime
-    @uint64_prime
-  end
-
-  def uint64_coprime
-    @uint64_coprime
-  end
-
-  ##TODO: IMPLEMENT THEM
-  def set_i32_prime(num : Int32)
-  end
-
-  def set_i64_prime(num : Int64)
-  end
-
-  def set_ui32_prime(num : UInt32)
-  end
-
-  def set_ui64_prime(num : UInt64)
+    @int32_prime = 1500450271_i32
+    @int32_coprime = 739620797_i32
+    @int64_prime = 8230452606740808761_i64
+    @int64_coprime = 6406032982250635724_i64
+    @uint32_prime = 3877529093_u32
+    @uint32_coprime = 3918314357_u32
+    @uint64_prime = 12764787846358441471_u64
+    @uint64_coprime = 6144424082878602346_u64
   end
 end
