@@ -45,7 +45,18 @@ x = Bisani.to_i32(x)
 # x will now be 3
 ```
 That's it. Pretty simple, huh?
-## Development
+
+### Custom primes
+
+This library comes with custom primes set in `Bisani::Values` class. You should replace them with your own primes. Using the default ones is a serious security vulnerability and will yield this library useless for you.
+
+```
+Bisani.set_i32_prime(1234567.to_i32)
+Bisani.set_i64_prime(1234567.to_i64)
+
+Bisani.set_u32_prime(1234567.to_u32)
+Bisani.set_u64_prime(1234567.to_u64)
+```
 
 ### Notes
 It currently works only on
